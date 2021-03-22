@@ -1,0 +1,18 @@
+<header class="header">
+    Oih
+</header>
+<div class="home-content">
+    <div class="home" (mouseover)="changeText = true" (mouseout)="changeText = false">
+        <h1 id="graph" class="home__title" [class.d-none]="!changeText">
+            <span title="Graphic designer"></span>
+        </h1>
+        <h1 id="web" class="home__title d-none" [class.d-none]="changeText"></h1>
+        <span class="web" title="Frontend developer"></span>
+    </div>
+</div>
+
+<footer>
+    <p>
+        Oih, marzo 2021
+    </p>
+</footer>
